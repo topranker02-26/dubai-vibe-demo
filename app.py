@@ -40,7 +40,7 @@ place_embeddings = encode_places(model, df['combined_text'].tolist())
 
 # 5. UI INTERFACE
 st.title("✨ Dubai Vibe Navigator")
-st.markdown("Search by **feeling** (e.g., 'I want to cry alone', 'First date romance', 'Code all night').")
+st.markdown("Search by **feeling** (e.g., 'I want to quiet place', 'Fun and Food', 'I want to study').")
 
 query = st.text_input("What is your vibe?", placeholder="Type here...")
 
